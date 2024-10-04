@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:15px 20px;
+}
+.navbar{
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    margin:20px auto;  
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    float:left;
+    width:217px;
+}
+header{
+    width:100%;
+    height:75%;
+    display:auto;
+    justify-content: space-between;
+    align-items: left;
+    padding:30px 10%;
+    background-color: rgb(4, 4, 58);
+    opacity: 86%;
+}
+.box{
+    border-left-color:white ;
+    border-top-color:white;
+    border-right-color:white ;
+    border-bottom-color: white;
+}
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform:none;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding:10px 10px;
+}
+.navbar ul li a{
+    color: blue;
+    text-decoration: none;
+    line-height: 50px;
+}
+a,button{
+    text-decoration:none;
+    font-size: 16px;
+    font-weight:500;
+    background-color: white;
+    color:black;
+    cursor:pointer;
+}
+button{
+    background-color: white;
+    color:navy;
+    padding: 9px 20px;
+    border:none;
+    border-radius:5px;
+    transition: all 0.4s ease 0s;
+}
+nav ul{
+    float: right;
+    padding-left: 10px;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+}
+nav  li a{
+    display:block;
+    font-size: 10px;
+    text-transform: none;
+    padding:15px;
+    color:navy;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color:blue;
+    transition: all 0.4s ease 0s;
+}
+.content{
+    width: 10px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins' ,sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content .cn{
+    width: 100px;
+    height: 400px;
+    background:navy;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color:white;
+    transition: .3s ease;
+}
+button{
+    background: blue;
+    width:200px;
+    height:40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-color:blue;
+    font-weight: 40;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 1s;
+    cursor:pointer;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+    transition: .3s ease;
+}
+.content{
+    width: 1200px;
+    height: 200px;
+    margin: 200px;
+    color: white;
+    position: relative;
+    background-color: blue;
+}
+.content .par{
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-family: 'Poppins' ,sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content .cn{
+    width: 200px;
+    height: 40px;
+    background:none;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color:white;
+    transition: .3s ease;
+    text-align: left;
+}
+.form{
+    width:250px;
+    height:300px;
+    background-color: white ;
+    color: black;
+    position:absolute;
+    top:-20px;
+    left:850px;
+    border-radius: 10px;
+    padding:25px;
+    text-align: right;
+}
+
+
+
